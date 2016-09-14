@@ -7,7 +7,7 @@ public class mundo {
 		//A la pelusa se la follaron todos
 		double base = 5;
 		double exponente =3;
-		string resultado = (int)Math.pow(base, exponente);
+		boolean resultado = (int)Math.pow(base, exponente);
 		
 		System.out.println("El resultado de " + "base " + base + " elevado a " + exponente + " es: " + resultado);
 	
